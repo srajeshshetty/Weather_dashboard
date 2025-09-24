@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+# Weather Dashboard
 
-## Project info
+A modern, responsive weather dashboard application that provides real-time weather information and forecasts for cities worldwide.
 
-**URL**: https://lovable.dev/projects/f54672ed-872d-4e51-80ef-08428f96a422
+## Features
 
-## How can I edit this code?
+- **Current Weather**: Get detailed weather information including temperature, humidity, wind speed, visibility, and UV index
+- **5-Day Forecast**: View upcoming weather conditions for better planning
+- **City Search**: Search for weather information in any city globally
+- **Location-Based Weather**: Get weather for your current location
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-There are several ways of editing your application.
+## How to edit this code
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/f54672ed-872d-4e51-80ef-08428f96a422) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+There are several ways to modify this application:
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clone this repository and work locally with your favorite development environment.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -50,24 +50,36 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+## Technologies Used
 
-This project is built with:
+This project is built with modern web technologies:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript development
+- **React** - Modern UI library for building user interfaces
+- **shadcn/ui** - Beautiful and accessible component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Beautiful icon library
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/f54672ed-872d-4e51-80ef-08428f96a422) and click on Share -> Publish.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open your browser to `http://localhost:5173`
 
-## Can I connect a custom domain to my Lovable project?
+## Deployment
 
-Yes, you can!
+This application can be deployed to any static hosting service such as:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Build the project for production:
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
